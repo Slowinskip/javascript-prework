@@ -1,3 +1,31 @@
+body {
+  background-color: whitesmoke;
+}
 
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.container .buttons {
+  justify-content: center;
+  flex: 100%;
+  display: flex;
+}
+.container .buttons button {
+  justify-content: space-between;
+  margin: 15px;
+  padding: 20px;
+  box-shadow: 3px;
+  background-color: aqua;
+  border: none;
+  font-size: 45px;
+  border-radius: 5px;
+}
+.container .messages {
+  text-align: center;
+  line-height: 45px;
+  font-size: 25px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDRCQUFBO0FDQ0o7O0FEQ0E7RUFDSSxrQkFBQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtBQ0VKO0FER0k7RUFDSSx1QkFBQTtFQUNBLFVBQUE7RUFDQSxhQUFBO0FDRFI7QURHUTtFQUNJLDhCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxlQUFBO0VBQ0Esc0JBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FDRFo7QURPSTtFQUNJLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxlQUFBO0FDTFIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

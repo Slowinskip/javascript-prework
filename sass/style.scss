@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+
+    .buttons {
+        justify-content: center;
+        flex: 100%;
+        display: flex;
+
+        button {
+            justify-content: space-between;
+            margin: 15px;
+            padding: 20px;
+            box-shadow: 3px;
+            background-color: aqua;
+            border: none;
+            font-size: 45px;
+            border-radius: 5px;
+        }
+        
+        
+    }
+
+    .messages {
+        text-align: center;
+        line-height: 45px;
+        font-size: 25px;
+        
+                
+    }
+}

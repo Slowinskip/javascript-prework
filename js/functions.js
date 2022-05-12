@@ -25,7 +25,6 @@ const displayResult = function(computerMove, playerMove) {
 }
 
 const getMoveName = function(argMoveId) {
-	console.log("Robie GetMoveName");
 
 	if(argMoveId == 1){
 		return 'kamień';
